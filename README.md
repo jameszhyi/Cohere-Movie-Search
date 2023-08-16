@@ -15,9 +15,9 @@ Studio provides a convenient platform to host the Streamlit web application. The
 - Open Studio and then open a new terminal.
 - Run the following commands on the terminal to clone the code repository for this post and install the Python packages needed by the application:
 ```
-git clone https://github.com/jameszhyi/Cohere-Movies/
+git clone https://github.com/jameszhyi/Cohere-Movie-Search/
 
-cd Cohere-Movies
+cd Cohere-Movie-Search
 
 pip install -r requirements.txt
 ```

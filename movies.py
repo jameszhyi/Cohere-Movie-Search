@@ -55,7 +55,7 @@ def setup():
         "movieId", "id", "imdb_id", "original_title", "title", "overview", "genres", "release_date", "language_code",
         "lang2idx", "language_name", "embeddings"
     ]
-    movies_df = pd.read_json("./data/the_movies_with_embeddings_p1.json", orient="index")
+    movies_df = pd.read_json("./data/movies_with_embeddings_01.json", orient="index")
     movies_df = movies_df.dropna(subset=['imdb_id'])
     movies_df = movies_df.fillna("")
     movies_df['movieId'] = movies_df.index
