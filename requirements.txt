@@ -4,3 +4,4 @@ pandas==1.5.3
 torch==2.0.0
 streamlit==1.15.2
 altair==4
+cohere-sagemaker
