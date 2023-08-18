@@ -5,7 +5,7 @@ This is a demo of a Multilingual Movie Search application using [Cohere Multilin
 In this app, you can just describe the movie you would like to watch, and the app will suggest movies that are a perfect match for you. You can even describe a movie in a variety of languages since the app will perform a multilingual search. We'll use Cohere’s multilingual models to embed movie descriptions into language-invariant embeddings.
 
 ## 1. Deploy cohere multilingual Model Package from AWS Marketplace
-You can follow this [sample notebook](https://github.com/cohere-ai/cohere-sagemaker/blob/main/notebooks/Deploy%20multilingual%20model.ipynb) to deploy a cohere multilingual model for real-time inferencing. You can give the endpoint name as "Endpoint-Cohere-Multilingual-Embedding-Model-1" which will be used in the next step.
+You can subscribe cohere multilingual Model on AWS Marketplace and invoke the real-time endpoint by launching AWS CloudFormation template. You can give the endpoint name as "Endpoint-Cohere-Multilingual-Embedding-Model-1" which will be used in the next step.
 
 ## 2. Run the Streamlit application in Studio
 Now we’re ready to run the Streamlit web application for Multilingual Movie Search.
