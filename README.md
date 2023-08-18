@@ -6,6 +6,8 @@ In this app, you can just describe the movie you would like to watch, and the ap
 
 ![](https://github.com/jameszhyi/Cohere-Movie-Search/blob/main/pics/Cohere-Movie-Search-01.png)
 
+
+
 ## 1. Deploy cohere multilingual Model Package from AWS Marketplace
 You can subscribe [cohere multilingual Model on AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-z6huxszcqc25i?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)  and invoke the real-time endpoint by launching AWS CloudFormation template. You can give the endpoint name as "Endpoint-Cohere-Multilingual-Embedding-Model-1" which will be used in the next step.
 
