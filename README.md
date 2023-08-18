@@ -7,10 +7,10 @@ In this app, you can just describe the movie you would like to watch, and the ap
 ## 1. Deploy cohere multilingual Model Package from AWS Marketplace
 You can subscribe cohere multilingual Model on AWS Marketplace and invoke the real-time endpoint by launching AWS CloudFormation template. You can give the endpoint name as "Endpoint-Cohere-Multilingual-Embedding-Model-1" which will be used in the next step.
 
-## 2. Run the Streamlit application in Studio
+## 2. Run the Streamlit application in Amazon SageMaker Studio
 Now we’re ready to run the Streamlit web application for Multilingual Movie Search.
 
-Studio provides a convenient platform to host the Streamlit web application. The following steps describes how to run the Streamlit app on Studio. Alternatively, you could also follow the same procedure to run the app on your laptop.
+Amazon SageMaker Studio provides a convenient platform to host the Streamlit web application. The following steps describes how to run the Streamlit app on Studio. Alternatively, you could also follow the same procedure to run the app on your laptop.
 
 - Open Studio and then open a new terminal.
 - Run the following commands on the terminal to clone the code repository for this post and install the Python packages needed by the application:
