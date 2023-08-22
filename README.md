@@ -2,6 +2,8 @@
 
 This is a demo of a Multilingual Movie Search application using [Cohere Multilingual Embedding Model](https://aws.amazon.com/marketplace/pp/prodview-z6huxszcqc25i?sr=0-1&ref_=beagle&applicationId=AWSMPContessa) on [AWS Marketplace](https://aws.amazon.com/marketplace) and [Amazon SageMaker JumpStart](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html). The application is edited from [Cohere Application examples](https://docs.cohere.com/page/application-examples) to make it suitable for demo in Amazon SageMaker Studio.
 
+![](https://github.com/jameszhyi/Cohere-Movie-Search/blob/main/pics/Cohere-Movie-AWS-Architecture.png)
+
 In this app, you can just describe the movie you would like to watch, and the app will suggest movies that are a perfect match for you. You can even describe a movie in a variety of languages since the app will perform a multilingual search. We'll use Cohere’s multilingual models to embed movie descriptions into language-invariant embeddings.
 
 ![](https://github.com/jameszhyi/Cohere-Movie-Search/blob/main/pics/Cohere-Movie-Search-01.png)
