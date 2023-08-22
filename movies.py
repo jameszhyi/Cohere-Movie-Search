@@ -34,16 +34,10 @@ st.set_page_config(layout="wide")
 streamlit_header_and_footer_setup()
 st.markdown("## Movies Search and Recommendation 🔍 🎬 🍿 ")
 
-# model_name: str = 'multilingual-2210-alpha'
-# model_name: str = 'multilingual-22-12'
-# COHERE_API_KEY = os.environ.get("COHERE_API_KEY")
-# co = cohere.Client(COHERE_API_KEY)
-
 # Set up Cohere client
 from cohere_sagemaker import Client
 import boto3
 region = boto3.Session().region_name
-
 MODEL_NAME = "Endpoint-Cohere-Multilingual-Embedding-Model-1"
 co = Client(region_name=region)
 co.connect_to_endpoint(endpoint_name=MODEL_NAME)

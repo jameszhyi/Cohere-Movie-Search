@@ -27,7 +27,7 @@ cd Cohere-Movie-Search
 
 pip install -r requirements.txt
 ```
-- Run the following commands to start a Streamlit app on Studio:
+- Ensure that the endpoint name in movies.py matches the one you created in the previous step. Then run the following command to start a Streamlit app on Studio:
 ```
 streamlit run movies.py
 ```
