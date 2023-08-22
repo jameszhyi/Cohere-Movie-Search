@@ -18,7 +18,7 @@ Now we’re ready to run the Streamlit web application for Multilingual Movie Se
 
 Amazon SageMaker Studio provides a convenient platform to host the Streamlit web application. The following steps describes how to run the Streamlit app on Studio. Alternatively, you could also follow the same procedure to run the app on your laptop.
 
-- Open Studio and then open a new terminal.
+- Open Studio and then open a new system terminal.
 - Run the following commands on the terminal to clone the code repository for this post and install the Python packages needed by the application:
 ```
 git clone https://github.com/jameszhyi/Cohere-Movie-Search/
@@ -33,6 +33,3 @@ streamlit run movies.py
 ```
 - When the application runs successfully, you’ll see the URL:Port Number from the system terminal. The port number (typically 8501) from the output will be used as part of the URL for app in the next step.
 - You can access the app in a new browser tab using a URL that is similar to your Studio domain URL. For example, if your Studio URL is `https://d-randomidentifier.studio.us-east-1.sagemaker.aws/jupyter/default/lab?` then the URL for your Streamlit app will be `https://d-randomidentifier.studio.us-east-1.sagemaker.aws/jupyter/default/proxy/8501/` (notice that `lab` is replaced with `proxy/8501/`). If the port number noted in the previous step is different from 8501 then use that instead of 8501 in the URL for the Streamlit app.
-
-
-Note: For demo purpose, this application uses the dataset `the_movies_with_embeddings_p1.json`, which contains a subset of the movie dataset and pre-computed embeddings of each movie's description for 10,000 movies from the full dataset `the_movies_with_embeddings.json`. 
